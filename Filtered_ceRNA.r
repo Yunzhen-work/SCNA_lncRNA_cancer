@@ -1,6 +1,7 @@
-### -------------------------------------------------------------------------------
-# Filtered lncRNA-miRNA-mRNA ceRNA relationship
-### -------------------------------------------------------------------------------
+"""
+Filtered lncRNA-miRNA-mRNA ceRNA relationship
+"""
+
 setwd("F:/workspace/Filtered_ceRNA/data")
 
 lnc_mir1 <- as.matrix(read.csv("miRNA-LncRNA.xls", sep="\t",header=T))
