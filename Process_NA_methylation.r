@@ -1,6 +1,7 @@
-### ------------------------------------------------------------------------------
-# Dealing with missing methylation values (Using mean value)
-### ------------------------------------------------------------------------------
+"""
+Dealing with missing methylation values (Using mean value)
+"""
+
 setwd("F:/workspace/Process_NA_methylation/data")
 normal_probe_methy <- as.matrix(read.table("normal_probe_methy.txt",sep="\t"))
 cancer_probe_methy <- as.matrix(read.table("cancer_probe_methy.txt",sep="\t"))
