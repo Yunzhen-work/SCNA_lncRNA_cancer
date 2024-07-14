@@ -1,6 +1,7 @@
-### ---------------------------------------------------------------------------------
-# Identifying methylation in lncRNA
-### ---------------------------------------------------------------------------------
+"""
+Identifying methylation in lncRNA
+"""
+
 setwd("F:/workspace/LncRNA_methylation/data")
 
 # 读入数据
