@@ -1,3 +1,6 @@
+### --------------------------------------------------------------------------------------
+# lncRNA相关的hallmark分析
+### --------------------------------------------------------------------------------------
 setwd("F:/LUAD/5-1miRNA/hallmark_analysis/data")
 diff_non_CNA_lncRNA_gene1 <- as.matrix(read.table("significant_dhype_CNA_lncRNA_pcg(0.4).txt", sep="\t",header=T))
 hallmark <- as.matrix(readLines("hallmark.txt",n=-1))
