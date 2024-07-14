@@ -1,6 +1,6 @@
-### --------------------------------------------------------------------------------
-# Identifying promoter region of lncRNA
-### --------------------------------------------------------------------------------
+"""
+Identifying promoter region of lncRNA
+"""
 
 rm(list=ls())
 # 距离lncRNA起始位点最近的TSS作为该lncRNA的TSS
