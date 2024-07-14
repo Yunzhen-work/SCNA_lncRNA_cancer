@@ -1,6 +1,7 @@
-### ----------------------------------------------------------------------------
-# process gene expression data that downloaded from TCGA
-### ----------------------------------------------------------------------------
+"""
+process gene expression data that downloaded from TCGA
+"""
+
 gene_normal <- read.table("RPKM_normal.txt",head=T,sep="\t")
 gene <- gene_normal
 
