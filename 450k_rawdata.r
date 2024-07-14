@@ -1,6 +1,7 @@
-### --------------------------------------------------------------------------------------------------------------------
-# Processing raw data of methylation merge it into matrix
-### --------------------------------------------------------------------------------------------------------------------
+"""
+Processing raw data of methylation merge it into matrix
+"""
+
 setwd("F:/workspace/Identify_promoter_methylation/data")
 probe_info1 <- as.matrix(read.table("LUAD.HumanMethylation450.19.lvl-3.TCGA-73-A9RS-01.txt",sep="\t",header=TRUE))
 lnc_tss <- as.matrix(read.table("lnc_tss.txt",sep="\t"))
